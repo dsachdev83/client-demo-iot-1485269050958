@@ -1,0 +1,21 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: client-demo-iot
+  host: celgene-demo-iot
+  disk_quota: 1024M
+  services:
+  - text-to-speech-service
+  - conversation-service
+  - Twilio-ci
+  - Language Translator-is
+  - celgene-demo-iot-cloudantNoSQLDB
+  - celgene-demo-iot-iotf-service
+  - availability-monitoring-auto
+  - Cloudant-Test
+  - Weather Company Data-mt
+  env:
+    NODE_RED_USERNAME: celgene
+    NODE_RED_PASSWORD: celgene
