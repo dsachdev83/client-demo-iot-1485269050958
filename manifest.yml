@@ -3,7 +3,7 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: client-demo-iot
+  name: celgene-demo-iot
   host: celgene-demo-iot
   disk_quota: 1024M
   services:
