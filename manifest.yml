@@ -13,7 +13,6 @@ applications:
   - Language Translator-is
   - celgene-demo-iot-cloudantNoSQLDB
   - celgene-demo-iot-iotf-service
-  - availability-monitoring-auto
   - Cloudant-Test
   - Weather Company Data-mt
   env:
